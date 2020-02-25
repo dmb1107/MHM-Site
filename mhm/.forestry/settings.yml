@@ -5,14 +5,14 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: directory
-  path: mhm/content
+  path: content
   label: Post
   create: documents
   match: "*"
   templates:
   - post
 - type: directory
-  path: mhm/data
+  path: data
   label: Tools
   create: documents
   match: "**/*"
@@ -20,22 +20,22 @@ sections:
   templates:
   - tools
 - type: directory
-  path: mhm/content/author
+  path: content/author
   label: Author
   create: documents
   match: "**/*"
   templates:
   - author
 - type: document
-  path: mhm/documentation
+  path: documentation
   label: Documentation
 - type: directory
-  path: mhm/content/contact
+  path: content/contact
   label: Contact
   create: all
   match: "**/*"
 - type: directory
-  path: mhm
+  path: ''
   label: Configuration
   create: all
   match: "*.toml"
