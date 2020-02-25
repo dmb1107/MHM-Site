@@ -76,7 +76,7 @@ weight = 3
 # home
 home = "Home"
 # logo
-logo = "images/logo.jpg"
+logo = "images/logo.png"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 
