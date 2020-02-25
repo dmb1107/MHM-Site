@@ -94,7 +94,7 @@ enable = false
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
 title = "Mental Health Matters:<br>Ohio State's mental wellness club."
-image = "images/banner/beKindToYaMind.png"
+image = "images/beKindToYaMind.png"
 
 
 ######################## call to action ###############################
