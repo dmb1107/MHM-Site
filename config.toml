@@ -76,7 +76,7 @@ weight = 3
 # home
 home = "Home"
 # logo
-logo = "images/logo.svg"
+logo = "images/logo.jpg"
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
 
@@ -102,7 +102,7 @@ image = "images/beKindToYaMind.png"
 enable = true
 image = "images/hugo-muscot.svg"
 title = "Join our organization"
-description = "Lorem ipsum."
+description = "Please fill out this form to get in touch with us."
 [params.cta.button]
 enable = true
 label = "Join Us"
