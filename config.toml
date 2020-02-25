@@ -4,7 +4,7 @@ languageCode = "en-us"
 # site title 
 title = "Northendlab | Blog Template"
 # theme
-theme = "Northendlab Hugo"
+theme = "northendlab"
 # post pagination
 paginate = "5"
 # post excerpt
