@@ -3,43 +3,7 @@ new_page_extension: md
 auto_deploy: false
 admin_path: ''
 webhook_url: 
-sections:
-- type: directory
-  path: content
-  label: Post
-  create: documents
-  match: "*"
-  templates:
-  - post
-- type: directory
-  path: data
-  label: Tools
-  create: documents
-  match: "**/*"
-  new_doc_ext: yml
-  templates:
-  - tools
-- type: directory
-  path: content/author
-  label: Author
-  create: documents
-  match: "**/*"
-  templates:
-  - author
-- type: document
-  path: documentation
-  label: Documentation
-- type: directory
-  path: content/contact
-  label: Contact
-  create: all
-  match: "**/*"
-- type: directory
-  path: ''
-  label: Configuration
-  create: all
-  match: "*.toml"
-  new_doc_ext: toml
+sections: 
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
