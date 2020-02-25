@@ -2,15 +2,13 @@
 baseURL = "/"
 languageCode = "en-us"
 # site title 
-title = "Northendlab | Blog Template"
+title = "Mental Health Matters"
 # theme
 theme = "northendlab"
 # post pagination
 paginate = "5"
 # post excerpt
 summaryLength = "10"
-# disqus short name
-disqusShortname = "" # get your shortname form here : https://disqus.com
 
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
@@ -39,26 +37,38 @@ link = "plugins/search/search.js"
 ########################### Navigation ###################################
 
 # main menu
+
 [[menu.main]]
-URL = "contact"
-name = "Contact"
+URL = "information"
+name = "Information"
 weight = 1
 
 [[menu.main]]
-URL = "tools"
-name = "tools"
+URL = "resources"
+name = "Resources"
 weight = 2
+
+[[menu.main]]
+URL = "contact"
+name = "Contact"
+weight = 3
 
 # footer menu
+
 [[menu.footer]]
-URL = "contact"
-name = "Contact"
+URL = "information"
+name = "Information"
 weight = 1
 
 [[menu.footer]]
-URL = "tools"
-name = "tools"
+URL = "resources"
+name = "Resources"
 weight = 2
+
+[[menu.footer]]
+URL = "contact"
+name = "Contact"
+weight = 3
 
 
 ######################### Default Parameters ###########################
@@ -67,17 +77,8 @@ weight = 2
 home = "Home"
 # logo
 logo = "images/logo.svg"
-# meta data
-author = "Themefisher"
-description = "This is meta description"
-# google tag manager
-google_tag_manager = "" # your id
-# google analitycs ID
-google_analitycs_id = "" # your id
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
-# copyright
-copyright = "&copy; 2019 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
 
 # preloader
 [params.preloader]
@@ -86,26 +87,26 @@ preloader = "" # use png, jpg, svg or gif format
 
 # search
 [params.search]
-enable = true
+enable = false
 
 
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Hi, I'm John Smith Doe. <br> I help people make the  worlds best software"
-image = "images/banner/illustration.svg"
+title = "Mental Health Matters:<br>Ohio State's mental wellness club."
+image = "images/banner/beKindToYaMind.png"
 
 
 ######################## call to action ###############################
 [params.cta]
 enable = true
 image = "images/hugo-muscot.svg"
-title = "Get the best hugo templates"
-description = "Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus."
+title = "Join our organization"
+description = "Lorem ipsum."
 [params.cta.button]
 enable = true
-label = "Visit Here"
-link = "https://gethugothemes.com/shop/"
+label = "Join Us"
+link = "https://docs.google.com/forms/d/e/1FAIpQLSfHCA5VtFMvgDY3QYthflSjJXC9S2mpPFStJN6OguZ16Y6lGg/viewform"
 
 
 ############################## Social Site ##########################
