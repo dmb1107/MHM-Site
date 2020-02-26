@@ -6,8 +6,8 @@ webhook_url:
 sections:
 - type: directory
   path: content
-  label: Pages
-  create: all
+  label: Posts
+  create: documents
   match: "*"
 - type: directory
   path: content/contact
