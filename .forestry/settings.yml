@@ -6,11 +6,11 @@ webhook_url:
 sections:
 - type: directory
   path: mhm/content
-  label: Post
+  label: Story
   create: documents
   match: "*"
   templates:
-  - post
+  - story
 - type: directory
   path: mhm/data
   label: Tools

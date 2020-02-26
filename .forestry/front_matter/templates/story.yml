@@ -1,5 +1,5 @@
 ---
-label: Post
+label: Story
 hide_body: false
 fields:
 - type: text
@@ -15,12 +15,12 @@ fields:
   name: author
   label: author
 - type: text
-  name: description
-  label: description
+  name: summary
+  label: summary
 - type: list
   name: categories
   label: categories
 - type: text
   name: type
   label: type
-  default: post
+  default: story

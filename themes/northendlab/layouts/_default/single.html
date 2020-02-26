@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-lg-8 mx-auto block shadow mb-5">
         <h2>{{ .Title | markdownify }}</h2>
-        <div class="mb-3 post-meta">
+        <div class="mb-3 story-meta">
           <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | title | humanize }}</a>,
           {{ .PublishDate.Format "02/06/2006" }}, {{ range .Params.Categories }}
           <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | title | humanize }}</a>
@@ -18,12 +18,6 @@
           {{ .Content }}
         </div>
       </div>
-      {{ if .Site.DisqusShortname}}
-      <div class="col-lg-8 mx-auto block shadow">
-        <!-- comments -->
-        {{ template "_internal/disqus.html" . }}
-      </div>
-      {{ end }}
     </div>
   </div>
 </section>

@@ -5,10 +5,12 @@ languageCode = "en-us"
 title = "Mental Health Matters"
 # theme
 theme = "northendlab"
-# post pagination
+# story pagination
 paginate = "5"
-# post excerpt
+# story excerpt
 summaryLength = "10"
+
+categories = ["shared stories"]
 
 [outputs]
 home = ["HTML", "AMP", "RSS", "JSON"]
