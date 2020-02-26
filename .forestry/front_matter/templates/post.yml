@@ -54,5 +54,7 @@ fields:
       file: 
       path: 
   label: author
+  showOnly:
+    value: author/dave-becker.md
 pages:
 - content/test-post.md
