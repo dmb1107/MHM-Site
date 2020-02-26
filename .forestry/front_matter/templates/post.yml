@@ -54,3 +54,5 @@ fields:
       file: 
       path: 
   label: author
+pages:
+- content/test-post.md
