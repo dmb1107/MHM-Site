@@ -50,11 +50,6 @@ URL = "resources"
 name = "Resources"
 weight = 2
 
-[[menu.main]]
-URL = "contact"
-name = "Contact"
-weight = 3
-
 # footer menu
 
 [[menu.footer]]
@@ -66,11 +61,6 @@ weight = 1
 URL = "resources"
 name = "Resources"
 weight = 2
-
-[[menu.footer]]
-URL = "contact"
-name = "Contact"
-weight = 3
 
 
 ######################### Default Parameters ###########################
