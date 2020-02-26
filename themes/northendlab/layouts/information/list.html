@@ -1,0 +1,14 @@
+{{ define "main" }}
+
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-10 mx-auto block shadow">
+        <h2 class="mb-4 text-center">{{ .Title | markdownify }}</h2>
+        <div class="content">{{ .Content }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{{ end }}
