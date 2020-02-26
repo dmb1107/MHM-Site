@@ -10,24 +10,14 @@ sections:
   create: documents
   match: "*"
 - type: directory
-  path: content/information
-  label: Information
-  create: all
-  match: "**/*"
-- type: directory
-  path: content/search
-  label: Search
-  create: all
-  match: "**/*"
-- type: directory
   path: content/author
   label: Author
   create: all
   match: "**/*"
 - type: directory
-  path: content/resources
-  label: Resources
-  create: all
+  path: content/pages
+  label: Pages
+  create: documents
   match: "**/*"
 upload_dir: static/uploads
 public_path: "/uploads"
