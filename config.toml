@@ -109,3 +109,7 @@ link = "https://www.instagram.com/mentalhealthmattersosu/"
 [[params.social]]
 icon = "ti-twitter" # themify icon pack https://themify.me/themify-icons
 link = "https://twitter.com/mhm_osu"
+
+
+[permalinks]
+  pages = ":title"
