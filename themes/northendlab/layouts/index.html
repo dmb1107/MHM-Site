@@ -2,11 +2,12 @@
 
 <!-- banner -->
 <section class="banner bg-cover" style="background-image: url('{{ .Site.Params.banner.bgImage | relURL }}');">
-  <img src="{{ .Site.Params.banner.image | relURL }}" class="img-fluid illustration" alt="">
+  <img src="{{ .Site.Params.banner.image | relURL }}" class="img-fluid illustration" alt="" style="height: 375px;">
   <div class="container">
     <div class="row">
       <div class="col-lg-6 mb-5 mb-lg-0">
         <h1>{{ .Site.Params.banner.title | markdownify }}</h1>
+        <h4 class="banner-info">{{ .Site.Params.banner.info | markdownify }}</h4>
       </div>
       <div class="col-lg-6 illustration-mobile">
         <img src="{{ .Site.Params.banner.image | relURL }}" class="img-fluid" alt="">
@@ -116,7 +117,7 @@
       <div class="col-lg-8 mx-auto">
         <div class="row shadow bg-white p-5">
           <div class="col-md-4 text-center text-md-left mb-4 mb-lg-0">
-            <img src="{{ .Site.Params.cta.image | relURL }}" class="mr-4" alt="..."></div>
+            <img src="{{ .Site.Params.cta.image | relURL }}" class="mr-4" alt="..." style="height: 152px;"></div>
           <div class="col-md-8 text-center text-md-left">
             <h3 class="mt-0">{{ .Site.Params.cta.title | markdownify }}</h3>
             <p>{{ .Site.Params.cta.description | markdownify }}</p>

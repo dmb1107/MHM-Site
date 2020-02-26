@@ -93,14 +93,15 @@ enable = false
 ####################### banner #######################################
 [params.banner]
 bgImage = "images/banner/banner-bg.svg"
-title = "Mental Health Matters:<br>Ohio State's mental wellness club."
+title = "Mental Health Matters"
+info = "Ohio State's mental wellness club."
 image = "images/beKindToYaMind.png"
 
 
 ######################## call to action ###############################
 [params.cta]
 enable = true
-image = "images/hugo-muscot.svg"
+image = "images/loveYa.png"
 title = "Join our organization"
 description = "Please fill out this form to get in touch with us."
 [params.cta.button]
