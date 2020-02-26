@@ -1,5 +1,5 @@
 ---
-label: Story
+label: Post
 hide_body: false
 fields:
 - type: text
@@ -23,4 +23,4 @@ fields:
 - type: text
   name: type
   label: type
-  default: story
+  default: post
