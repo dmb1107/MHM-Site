@@ -52,3 +52,5 @@ fields:
   label: type
   hidden: true
   default: post
+pages:
+- content/test-post.md
