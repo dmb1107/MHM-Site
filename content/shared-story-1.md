@@ -1,7 +1,7 @@
 +++
 title = "Shared story 1"
 image = "/images/post/post-placeholder.jpg"
-author = "Dave Becker"
+author = "MHM Team"
 date = 2019-11-07T05:00:00Z
 categories = ["Shared stories"]
 summary = "This is a summary"
