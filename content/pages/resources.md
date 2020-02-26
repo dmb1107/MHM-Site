@@ -1,10 +1,16 @@
 ---
-title: "Resources"
-draft: false
-type: "page"
-layout: "single"
----
+title: Resources
+type: page
+layout: single
+menu:
+  main:
+    URL: resources
+    weight: 2
+  footer:
+    URL: resources
+    weight: 2
 
+---
 **How to Help a Friend**    
 Information
 

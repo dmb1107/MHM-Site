@@ -1,10 +1,16 @@
 ---
-title: "Information"
-draft: false
-type: "page"
-layout: "single"
----
+title: Information
+type: page
+layout: single
+menu:
+  main:
+    URL: information
+    weight: 1
+  footer:
+    URL: information
+    weight: 1
 
+---
 **Mental Health Disorders and Definitions**   
 Information
 
