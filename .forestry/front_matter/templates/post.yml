@@ -36,10 +36,6 @@ fields:
     display_utc: false
   hidden: true
   default: now
-- name: categories
-  type: tag_list
-  default: []
-  label: categories
 - name: summary
   type: text
   config:
@@ -52,3 +48,19 @@ fields:
   label: type
   hidden: true
   default: post
+- name: categories
+  type: select
+  default: general
+  config:
+    required: true
+    options:
+    - shared stories
+    - advice
+    - knowledge
+    - general
+    source:
+      type: simple
+      section: 
+      file: 
+      path: 
+  label: categories
