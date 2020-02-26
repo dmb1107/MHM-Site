@@ -5,9 +5,15 @@ fields:
 - type: text
   name: title
   label: title
+  config:
+    required: true
 - type: text
   name: type
   label: type
+  hidden: true
+  default: page
 - type: text
   name: layout
   label: layout
+  hidden: true
+  default: single
