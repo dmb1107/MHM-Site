@@ -48,8 +48,7 @@ fields:
   label: type
   hidden: true
   default: post
-- name: tags
+- name: categories
   type: tag_list
-  default:
-  - general
+  default: []
   label: tags
