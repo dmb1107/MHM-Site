@@ -1,0 +1,53 @@
+---
+label: post
+hide_body: false
+fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: title
+- name: image
+  type: file
+  config:
+    maxSize: 250
+  label: image
+- name: author
+  type: select
+  default: []
+  config:
+    required: true
+    options: []
+    source:
+      type: pages
+      section: author
+      file: 
+      path: 
+  label: author
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  hidden: true
+  default: now
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
+- name: summary
+  type: text
+  config:
+    required: true
+  label: summary
+- name: type
+  type: text
+  config:
+    required: true
+  label: type
+  hidden: true
+  default: post
