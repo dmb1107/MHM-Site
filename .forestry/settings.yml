@@ -6,6 +6,12 @@ webhook_url:
 sections:
 - type: directory
   path: content
+  label: Pages
+  create: all
+  match: "**/*"
+  exclude: "*.md"
+- type: directory
+  path: content
   label: Posts
   create: documents
   match: "*"
