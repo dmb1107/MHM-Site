@@ -48,19 +48,8 @@ fields:
   label: type
   hidden: true
   default: post
-- name: categories
-  type: select
-  default: general
-  config:
-    required: true
-    options:
-    - shared stories
-    - advice
-    - knowledge
-    - general
-    source:
-      type: simple
-      section: 
-      file: 
-      path: 
-  label: categories
+- name: tags
+  type: tag_list
+  default:
+  - general
+  label: tags
