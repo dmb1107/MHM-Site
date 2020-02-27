@@ -31,11 +31,11 @@ fields:
   description: ''
   config:
     required: true
-    date_format: YYYY-MM-DD'T'HH:mm:ss'Z'
+    date_format: ''
     time_format: 
     display_utc: false
     export_format: YYYY-MM-DD'T'HH:mm:ss'Z'
-  hidden: false
+  hidden: true
   default: now
 - name: summary
   type: text
