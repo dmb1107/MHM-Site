@@ -1,0 +1,2 @@
+{{ $author := (substr .Page.Params.author 7 -3) | urlize | lower }}
+{{ replace $author " " "" }}

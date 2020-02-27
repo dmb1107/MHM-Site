@@ -6,7 +6,15 @@
       <div class="col-lg-8 mx-auto block shadow mb-5">
         <h2>{{ .Title | markdownify }}</h2>
         <div class="mb-3 post-meta">
-          <a href="{{ `author/` | relLangURL }}{{ .Params.Author | urlize | lower }}">{{ .Params.Author | title | humanize }}</a>,
+          <a href="{{ `author/` | relLangURL }}{{ $author := (substr .Page.Params.Author 7 -3) | urlize | lower }}{{ replace $author ` ` `` }}">
+            {{ $author := (substr .Page.Params.Author 7 -3) | humanize | title }}
+            {{ if eq (substr $author 0 3) "Mhm" }}
+                {{ (substr $author 0 3) | upper }}
+                {{ (substr $author 3) | humanize | title }}
+            {{ else }}
+                {{ $author }}
+            {{ end }}
+          </a>,
           {{ .PublishDate.Format "02/06/2006" }}, {{ range .Params.Categories }}
           <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | title | humanize }}</a>
           {{ end }}
@@ -21,5 +29,4 @@
     </div>
   </div>
 </section>
-
 {{ end }}

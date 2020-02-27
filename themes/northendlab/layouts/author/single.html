@@ -21,8 +21,11 @@
       <div class="col-lg-8 mx-auto px-0">
         <h2 class="mb-4">Posts by {{ .Title | markdownify }}</h2>
         <div class="bg-white shadow block">
-          {{ $name:= .Title }}
-          {{ range where .Site.RegularPages "Params.author" $name }}
+          {{ $name:= .Title | markdownify }}
+          {{ $myAuthorURL := $name | urlize | lower }}
+          {{ $myAuthorURL := replace $myAuthorURL " " "" }}
+          {{ $myAuthorURL := print `author/` $myAuthorURL `.md`}}
+          {{ range where .Site.RegularPages "Params.author" $myAuthorURL }}
           {{ .Render "article" }}
           {{ end }}
         </div>
