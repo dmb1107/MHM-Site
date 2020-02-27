@@ -1,8 +1,1 @@
-{{ $author := (substr .Page.Params.author 7 -3) | humanize | title }}
-
-{{ if eq (substr $author 0 3) "Mhm" }}
-    {{ (substr $author 0 3) | upper }}
-    {{ (substr $author 3) | humanize | title }}
-{{ else }}
-    {{ $author }}
-{{ end }}
+{{ $author := (substr .Page.Params.author 7 -3) | humanize | title }}{{ if eq (substr $author 0 3) "Mhm" }}{{ (substr $author 0 3) | upper }}{{ (substr $author 3) | humanize | title }}{{ else }}{{ $author }}{{ end }}
