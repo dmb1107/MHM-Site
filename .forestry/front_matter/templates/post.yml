@@ -34,6 +34,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+    export_format: YYYY-MM-DD'T'HH:mm:ss'Z'
   hidden: true
   default: now
 - name: summary
@@ -54,4 +55,3 @@ fields:
   label: tags
 pages:
 - content/test.md
-- content/testing.md
