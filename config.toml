@@ -51,3 +51,5 @@ icon = "ti-twitter"
 link = "https://twitter.com/mhm_osu"
 [permalinks]
 pages = ":title"
+[taxonomies]
+category = "categories"
