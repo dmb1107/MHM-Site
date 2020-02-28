@@ -1,0 +1,19 @@
+{{ define "main" }}
+<section class="section">
+        <div class="container">
+                <div class="row">
+                        <div class="col-lg-8 mx-auto px-0">
+                                <h2 class="mb-4">Categories</h2>
+                                <div class="bg-white shadow block">
+                                        <ul class="category-list">
+                                                {{ range .Site.Taxonomies.categories }}
+                                                <li><a href="{{ .Page.Permalink }}">{{ .Page.Title | title }}</a> - {{ .Count }} {{ if eq .Count 1 }}Post{{ else }}Posts{{ end }}
+                                                </li>
+                                                {{ end }}
+                                        </ul>
+                                </div>
+                        </div>
+                </div>
+        </div>
+</section>
+{{ end }}
