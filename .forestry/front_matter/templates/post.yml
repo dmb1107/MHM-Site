@@ -55,3 +55,4 @@ fields:
   label: tags
 pages:
 - content/testing.md
+- content/title.md
